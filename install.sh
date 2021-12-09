@@ -10,3 +10,5 @@ rm -rf /home/admin2
 adduser --disabled-password --gecos "" admin
 echo admin:admin | chpasswd
 usermod admin -g sudo
+
+echo 'Success.'
